@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。  标题 标题加1个#号是一级标题，加2个#是二级标题依此类推。 在标题底下加任意个=代表一级标题,-代表二级标题。  列表 无序列表使用-、+和*作为列表标记： 有序列表用数字加英文点.来表示  引用 用&amp;gt;来表示引用，&amp;gt;&amp;gt;表示二级引用 引用代码块是使用一对123">
+<meta name="description" content="Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。  标题 标题加1个#号是一级标题，加2个#是二级标题依此类推。 在标题底下加任意个=代表一级标题,-代表二级标题。  列表 无序列表使用-、+和*作为列表标记： 有序列表用数字加英文点.来表示  引用 用&amp;gt;来表示引用，&amp;gt;&amp;gt;表示二级引用 引用代码块是使用一对`表示">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown常用语法">
 <meta property="og:url" content="http://yoursite.com/2018/04/03/hello-world/index.html">
 <meta property="og:site_name" content="我本善行">
-<meta property="og:description" content="Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。  标题 标题加1个#号是一级标题，加2个#是二级标题依此类推。 在标题底下加任意个=代表一级标题,-代表二级标题。  列表 无序列表使用-、+和*作为列表标记： 有序列表用数字加英文点.来表示  引用 用&amp;gt;来表示引用，&amp;gt;&amp;gt;表示二级引用 引用代码块是使用一对123">
+<meta property="og:description" content="Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。  标题 标题加1个#号是一级标题，加2个#是二级标题依此类推。 在标题底下加任意个=代表一级标题,-代表二级标题。  列表 无序列表使用-、+和*作为列表标记： 有序列表用数字加英文点.来表示  引用 用&amp;gt;来表示引用，&amp;gt;&amp;gt;表示二级引用 引用代码块是使用一对`表示">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-04T14:06:33.445Z">
+<meta property="og:updated_time" content="2018-04-04T14:09:59.690Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown常用语法">
-<meta name="twitter:description" content="Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。  标题 标题加1个#号是一级标题，加2个#是二级标题依此类推。 在标题底下加任意个=代表一级标题,-代表二级标题。  列表 无序列表使用-、+和*作为列表标记： 有序列表用数字加英文点.来表示  引用 用&amp;gt;来表示引用，&amp;gt;&amp;gt;表示二级引用 引用代码块是使用一对123">
+<meta name="twitter:description" content="Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。  标题 标题加1个#号是一级标题，加2个#是二级标题依此类推。 在标题底下加任意个=代表一级标题,-代表二级标题。  列表 无序列表使用-、+和*作为列表标记： 有序列表用数字加英文点.来表示  引用 用&amp;gt;来表示引用，&amp;gt;&amp;gt;表示二级引用 引用代码块是使用一对`表示">
 
 
 
@@ -343,11 +343,20 @@
 </ul>
 <h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><ul>
 <li>用&gt;来表示引用，&gt;&gt;表示二级引用</li>
-<li>引用代码块是使用一对<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## 字体</span><br><span class="line">- 两个*或两个-代表加粗，一个*或-代表斜体，~~代表删除。</span><br></pre></td></tr></table></figure></li>
+<li>引用代码块是使用一对<code>`</code>表示</li>
 </ul>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><ul>
+<li>两个<em>或两个-代表加粗，一个</em>或-代表斜体，~~代表删除。</li>
+</ul>
+<blockquote>
 <p><strong>加粗文本</strong> 或者 <strong>加粗文本</strong></p>
+</blockquote>
+<blockquote>
 <p><em>斜体文本</em>  或者<em>斜体文本</em></p>
-<p><del>删除文本</del><br><code>`</code></p>
+</blockquote>
+<blockquote>
+<p><del>删除文本</del></p>
+</blockquote>
 
       
     </div>
@@ -500,7 +509,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">1.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#列表"><span class="nav-number">2.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引用"><span class="nav-number">3.</span> <span class="nav-text">引用</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">1.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#列表"><span class="nav-number">2.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引用"><span class="nav-number">3.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字体"><span class="nav-number">4.</span> <span class="nav-text">字体</span></a></li></ol></div>
             
 
           </div>
